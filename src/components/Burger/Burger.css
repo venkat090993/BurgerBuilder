@@ -1,0 +1,13 @@
+.burger{
+    height:150px;
+width:250px;
+margin:auto;
+text-align:center;
+scroll-behavior: smooth;
+padding-bottom: 10px;
+overflow: auto}
+
+@media(max-width:375px){
+    .burger{
+        margin-left: -15px;
+}}

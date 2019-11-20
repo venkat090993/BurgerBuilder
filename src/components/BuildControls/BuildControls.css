@@ -1,0 +1,55 @@
+.BuildControls{
+    width:300px;
+    background-color:#CF8F2E;
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin:auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.controlButtons{
+    display : inline;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media(max-width:499px){
+    .BuildControls{
+        display:flex;
+    flex-flow:column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin-left:-40px;
+    }
+}
+@media(max-width:450px){
+    .BuildControls{
+        display:flex;
+    flex-flow:column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin-left:-50px;
+    overflow: hidden;
+    
+    }
+}
+
+@media(max-width:359px){
+    .BuildControls{
+        width:400px;
+        height: 640;
+        display:flex;
+    flex-flow:column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin-left:-50px;
+    overflow: hidden;
+
+
+    }
+}

@@ -1,0 +1,10 @@
+.App {
+  text-align: left;
+  margin:0px;
+  margin-top:60px;
+  height: 100%;}
+
+
+@media(max-width:375px){
+  body{margin-bottom:10px;
+overflow: hidden;}}

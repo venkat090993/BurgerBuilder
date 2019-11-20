@@ -1,0 +1,6 @@
+.sideDrawer{
+    margin:5px;
+}
+
+@media(min-width:500px){
+    .sideDrawer{width:500px}}

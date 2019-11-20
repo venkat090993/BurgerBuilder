@@ -1,0 +1,23 @@
+
+
+.sideDrawer{
+    position: fixed;
+    height: 700px;
+    width: 300px;
+    background-color:white;
+    float:left;
+    padding:32px 16px;
+    box-sizing: border-box;
+    z-index: 100;
+    margin-left: -130px;
+    transition: transform 0.3s ease-out;
+    border-right: 1px solid black;
+    cursor: pointer;
+}
+
+
+  /* @media(min-width:500px){
+    .sideDrawer{
+        display: none;
+}} */
+
